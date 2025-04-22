@@ -1,0 +1,220 @@
+12:29:10.736 [main] INFO  com.example.utils.ActionDriver - Entered text 'Selenium WebDriver' in element: By.name: q
+12:29:11.729 [main] INFO  com.example.utils.ActionDriver - Clicked on element: By.name: btnK
+12:29:53.243 [main] INFO  com.example.utils.ActionDriver - Entered text 'Selenium WebDriver' in element: By.name: q
+12:29:54.122 [main] INFO  com.example.utils.ActionDriver - Clicked on element: By.name: btnK
+12:32:38.865 [main] INFO  com.example.utils.ActionDriver - Entered text 'Selenium WebDriver' in element: By.name: q
+12:32:39.714 [main] INFO  com.example.utils.ActionDriver - Clicked on element: By.name: btnK
+13:03:33.289 [main] INFO  com.example.utils.ExtentReportManager - Initialized ExtentReports with config file and created report: test-output/ExtentReports/TestReport_20250422_130333.html
+13:03:33.293 [main] INFO  com.example.tests.BaseTest - Test Suite started
+13:03:33.303 [main] INFO  com.example.utils.TestListener - Starting test: Action Driver Tests
+13:03:35.587 [main] INFO  com.example.tests.BaseTest - WebDriver initialized successfully
+13:03:36.790 [main] INFO  com.example.tests.BaseTest - Started test with browser: chrome
+13:03:36.793 [main] INFO  com.example.utils.TestListener - Test testSearchFunctionality started
+13:03:48.660 [main] INFO  com.example.utils.ActionDriver - Entered text 'Selenium WebDriver' in element: By.name: q
+13:03:49.880 [main] ERROR com.example.tests.BaseTest - Test failed: element click intercepted: Element <input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwjCmpqGkOuMAxWcsFYBHb-XOk4Q4dUDCBI"> is not clickable at point (439, 314). Other element would receive the click: <b>...</b>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3ea1c3a79aad26034e621549dca52a1, clickElement {id=f.671407783DBC76F8D2C26D463B7362DB.d.4038D427005C31666C00B7C797FC47C3.e.27}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57232}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57232/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a3ea1c3a79aad26034e621549dca52a1)] -> name: btnK]
+Session ID: a3ea1c3a79aad26034e621549dca52a1
+13:03:49.889 [main] ERROR com.example.utils.TestListener - Test testSearchFunctionality failed
+13:03:52.126 [main] INFO  com.example.utils.DriverManager - Initialized chrome browser
+13:03:52.306 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testSearchFunctionality_20250422_130352.png
+13:03:52.309 [main] INFO  com.example.tests.BaseTest - Test method completed
+13:03:52.893 [main] INFO  com.example.utils.TestListener - Test Suite Action Driver Tests finished
+13:03:53.246 [main] INFO  com.example.utils.ExtentReportManager - Flushed ExtentReports
+13:03:53.265 [main] INFO  com.example.utils.ExtentReportManager - Flushed ExtentReports
+13:03:53.265 [main] INFO  com.example.tests.BaseTest - Test Suite completed
+13:04:34.105 [main] INFO  com.example.utils.ExtentReportManager - Initialized ExtentReports with config file and created report: test-output/ExtentReports/TestReport_20250422_130433.html
+13:04:34.107 [main] INFO  com.example.tests.BaseTest - Test Suite started
+13:04:34.114 [main] INFO  com.example.utils.TestListener - Starting test: Action Driver Tests
+13:04:36.473 [main] INFO  com.example.tests.BaseTest - WebDriver initialized successfully
+13:04:37.474 [main] INFO  com.example.tests.BaseTest - Started test with browser: chrome
+13:04:37.476 [main] INFO  com.example.utils.TestListener - Test testSearchFunctionality started
+13:04:50.822 [main] INFO  com.example.utils.ActionDriver - Entered text 'Selenium WebDriver' in element: By.name: q
+13:04:52.028 [main] ERROR com.example.tests.BaseTest - Test failed: element click intercepted: Element <input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwjp5qajkOuMAxVyslYBHVdWI-UQ4dUDCBQ"> is not clickable at point (439, 331). Other element would receive the click: <b>...</b>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5801c3c06eb4c5f3985850c87e9fa4f8, clickElement {id=f.690D14304D3BD9FC06E334ACADE742C0.d.9E8C9DBBF24FBB7CEB0B1F2E3A6C2D8F.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57315}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57315/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5801c3c06eb4c5f3985850c87e9fa4f8)] -> name: btnK]
+Session ID: 5801c3c06eb4c5f3985850c87e9fa4f8
+13:04:52.046 [main] ERROR com.example.utils.TestListener - Test testSearchFunctionality failed
+13:04:53.218 [main] INFO  com.example.utils.DriverManager - Initialized chrome browser
+13:04:53.339 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testSearchFunctionality_20250422_130453.png
+13:04:53.341 [main] INFO  com.example.tests.BaseTest - Test method completed
+13:04:53.601 [main] INFO  com.example.utils.TestListener - Test Suite Action Driver Tests finished
+13:04:53.897 [main] INFO  com.example.utils.ExtentReportManager - Flushed ExtentReports
+13:04:53.916 [main] INFO  com.example.utils.ExtentReportManager - Flushed ExtentReports
+13:04:53.916 [main] INFO  com.example.tests.BaseTest - Test Suite completed
+13:38:46.214 [main] INFO  com.example.utils.ExtentReportManager - Initialized ExtentReports with config file and created report: test-output/ExtentReports/TestReport_20250422_133846.html
+13:38:46.217 [main] INFO  com.example.tests.BaseTest - Test Suite started
+13:38:46.222 [main] INFO  com.example.utils.TestListener - Starting test: Action Driver Tests
+13:38:49.011 [main] INFO  com.example.tests.BaseTest - WebDriver initialized successfully
+13:38:50.172 [main] INFO  com.example.tests.BaseTest - Started test with browser: chrome
+13:38:50.174 [main] INFO  com.example.utils.TestListener - Test testSearchFunctionality started
+13:39:02.250 [main] INFO  com.example.utils.ActionDriver - Entered text 'Selenium WebDriver' in element: By.name: q
+13:39:03.451 [main] ERROR com.example.tests.BaseTest - Test failed: element click intercepted: Element <input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwj5gZD2l-uMAxV9qFYBHW4tKXIQ4dUDCBI"> is not clickable at point (439, 331). Other element would receive the click: <b>...</b>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f3576831329184d38f2097ea07523aaa, clickElement {id=f.5759AE99F98727E8969ABEB583B2CB85.d.509F165C07F00DE73E42AEEA70FEDEDB.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57639}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57639/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f3576831329184d38f2097ea07523aaa)] -> name: btnK]
+Session ID: f3576831329184d38f2097ea07523aaa
+13:39:03.461 [main] ERROR com.example.utils.TestListener - Test testSearchFunctionality failed
+13:39:04.781 [main] INFO  com.example.utils.DriverManager - Initialized chrome browser
+13:39:04.904 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testSearchFunctionality_20250422_133904.png
+13:39:04.907 [main] INFO  com.example.tests.BaseTest - Test method completed
+13:39:05.158 [main] INFO  com.example.utils.TestListener - Test Suite Action Driver Tests finished
+13:39:05.465 [main] INFO  com.example.utils.ExtentReportManager - Flushed ExtentReports
+13:39:05.479 [main] INFO  com.example.utils.ExtentReportManager - Flushed ExtentReports
+13:39:05.483 [main] INFO  com.example.tests.BaseTest - Test Suite completed
+13:39:39.153 [main] INFO  com.example.utils.ExtentReportManager - Initialized ExtentReports with config file and created report: test-output/ExtentReports/TestReport_20250422_133938.html
+13:39:39.156 [main] INFO  com.example.tests.BaseTest - Test Suite started
+13:39:39.161 [main] INFO  com.example.utils.TestListener - Starting test: Action Driver Tests
+13:39:41.451 [main] INFO  com.example.tests.BaseTest - WebDriver initialized successfully
+13:39:42.518 [main] INFO  com.example.tests.BaseTest - Started test with browser: chrome
+13:39:42.520 [main] INFO  com.example.utils.TestListener - Test testSearchFunctionality started
+13:39:54.118 [main] INFO  com.example.utils.ActionDriver - Entered text 'Selenium WebDriver' in element: By.name: q
+13:39:55.327 [main] ERROR com.example.tests.BaseTest - Test failed: element click intercepted: Element <input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwibz_aOmOuMAxVGklYBHY6WFSsQ4dUDCBQ"> is not clickable at point (439, 331). Other element would receive the click: <b>...</b>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [56e92c86de3725a2579ad83e1f563368, clickElement {id=f.6C776404A63CCB8062D3703B7C34AB2A.d.29202A13A81752A221EAE670FFB881F8.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57717}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57717/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (56e92c86de3725a2579ad83e1f563368)] -> name: btnK]
+Session ID: 56e92c86de3725a2579ad83e1f563368
+13:39:55.340 [main] ERROR com.example.utils.TestListener - Test testSearchFunctionality failed
+13:39:56.605 [main] INFO  com.example.utils.DriverManager - Initialized chrome browser
+13:39:56.759 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testSearchFunctionality_20250422_133956.png
+13:39:56.762 [main] INFO  com.example.tests.BaseTest - Test method completed
+13:39:57.205 [main] INFO  com.example.utils.TestListener - Test Suite Action Driver Tests finished
+13:39:57.501 [main] INFO  com.example.utils.ExtentReportManager - Flushed ExtentReports
+13:39:57.516 [main] INFO  com.example.utils.ExtentReportManager - Flushed ExtentReports
+13:39:57.517 [main] INFO  com.example.tests.BaseTest - Test Suite completed
+13:41:06.721 [main] INFO  com.example.utils.ExtentReportManager - Initialized ExtentReports with config file and created report: test-output/ExtentReports/TestReport_20250422_134106.html
+13:41:06.723 [main] INFO  com.example.tests.BaseTest - Test Suite started
+13:41:06.729 [main] INFO  com.example.utils.TestListener - Starting test: Surefire test
+13:41:08.822 [main] INFO  com.example.tests.BaseTest - WebDriver initialized successfully
+13:41:08.951 [main] INFO  com.example.tests.BaseTest - Started test with browser: chrome
+13:41:08.953 [main] INFO  com.example.utils.TestListener - Test testCartOperations started
+13:41:08.965 [main] INFO  com.example.pages.BasePage - Searching for product: t-shirt
+13:41:08.977 [main] ERROR com.example.utils.TestListener - Test testCartOperations failed
+13:41:10.007 [main] INFO  com.example.utils.DriverManager - Initialized chrome browser
+13:41:10.166 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testCartOperations_20250422_134110.png
+13:41:10.169 [main] INFO  com.example.tests.BaseTest - Test method completed
+13:41:10.340 [main] INFO  com.example.tests.BaseTest - WebDriver closed successfully
+13:41:10.393 [main] INFO  com.example.utils.TestListener - Test Suite Surefire test finished
+13:41:10.675 [main] INFO  com.example.utils.ExtentReportManager - Flushed ExtentReports
+13:41:10.687 [main] INFO  com.example.utils.ExtentReportManager - Flushed ExtentReports
+13:41:10.687 [main] INFO  com.example.tests.BaseTest - Test Suite completed
+15:20:43.769 [main] INFO  com.example.utils.ExtentReportManager - Initialized ExtentReports with config file and created report: test-output/ExtentReports/TestReport_20250422_152043.html
+15:20:43.772 [main] INFO  com.example.tests.BaseTest - Test Suite started
+15:20:43.777 [main] INFO  com.example.utils.TestListener - Starting test: Action Driver Tests
+15:20:46.565 [main] INFO  com.example.tests.BaseTest - WebDriver initialized successfully
+15:20:47.675 [main] INFO  com.example.tests.BaseTest - Started test with browser: chrome
+15:20:47.677 [main] INFO  com.example.utils.TestListener - Test testSearchFunctionality started
+15:20:59.153 [main] INFO  com.example.utils.ActionDriver - Entered text 'Selenium WebDriver' in element: By.name: q
+15:21:09.341 [main] INFO  com.example.tests.BaseTest - Search results displayed: false
+15:21:09.364 [main] ERROR com.example.utils.TestListener - Test testSearchFunctionality failed
+15:21:10.440 [main] INFO  com.example.utils.DriverManager - Initialized chrome browser
+15:21:10.566 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testSearchFunctionality_20250422_152110.png
+15:21:10.569 [main] INFO  com.example.tests.BaseTest - Test method completed
+15:21:10.844 [main] INFO  com.example.utils.TestListener - Test Suite Action Driver Tests finished
+15:21:11.259 [main] INFO  com.example.utils.ExtentReportManager - Flushed ExtentReports
+15:21:11.282 [main] INFO  com.example.utils.ExtentReportManager - Flushed ExtentReports
+15:21:11.282 [main] INFO  com.example.tests.BaseTest - Test Suite completed
+2025-04-22 17:36:39.154 [main] INFO  com.example.utils.TestListener - Starting test suite: Smoke Tests
+2025-04-22 17:36:39.337 [main] INFO  com.example.utils.ExtentReportManager - Initialized ExtentReports: test-output/ExtentReports/TestReport_20250422_173639.html
+2025-04-22 17:36:39.353 [main] INFO  com.example.utils.Config - Configuration loaded successfully
+2025-04-22 17:36:42.172 [main] INFO  com.example.utils.DriverManager - WebDriver initialized for browser: chrome
+2025-04-22 17:36:42.173 [main] INFO  com.example.tests.BaseTest - Test setup completed successfully
+2025-04-22 17:36:42.199 [main] INFO  com.example.utils.TestListener - Starting test: testHomePageLoad
+2025-04-22 17:36:42.205 [main] INFO  com.example.tests.SmokeTest - Starting home page load test
+2025-04-22 17:36:53.938 [main] ERROR com.example.utils.WebElementUtils - Element not visible: By.id: header_logo after 10 seconds
+2025-04-22 17:36:53.954 [main] ERROR com.example.utils.TestListener - Test failed: testHomePageLoad - java.lang.AssertionError: Home page logo should be displayed expected [true] but found [false]
+2025-04-22 17:36:54.193 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testHomePageLoad_20250422_173654.png
+2025-04-22 17:36:54.515 [main] INFO  com.example.utils.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-04-22 17:36:54.515 [main] INFO  com.example.tests.BaseTest - Test teardown completed
+2025-04-22 17:36:54.529 [main] INFO  com.example.utils.TestListener - Finished test suite: Smoke Tests
+2025-04-22 17:36:54.816 [main] INFO  com.example.utils.ExtentReportManager - ExtentReports flushed successfully
+2025-04-22 17:37:43.575 [main] INFO  com.example.utils.TestListener - Starting test suite: Smoke Tests
+2025-04-22 17:37:43.803 [main] INFO  com.example.utils.ExtentReportManager - Initialized ExtentReports: test-output/ExtentReports/TestReport_20250422_173743.html
+2025-04-22 17:37:43.818 [main] INFO  com.example.utils.Config - Configuration loaded successfully
+2025-04-22 17:37:45.881 [main] INFO  com.example.utils.DriverManager - WebDriver initialized for browser: chrome
+2025-04-22 17:37:45.882 [main] INFO  com.example.tests.BaseTest - Test setup completed successfully
+2025-04-22 17:37:45.913 [main] INFO  com.example.utils.TestListener - Starting test: testHomePageLoad
+2025-04-22 17:37:45.920 [main] INFO  com.example.tests.SmokeTest - Starting home page load test
+2025-04-22 17:37:57.839 [main] ERROR com.example.utils.WebElementUtils - Element not visible: By.id: header_logo after 10 seconds
+2025-04-22 17:37:57.868 [main] ERROR com.example.utils.TestListener - Test failed: testHomePageLoad - java.lang.AssertionError: Home page logo should be displayed expected [true] but found [false]
+2025-04-22 17:37:58.254 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testHomePageLoad_20250422_173758.png
+2025-04-22 17:37:59.087 [main] INFO  com.example.utils.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-04-22 17:37:59.088 [main] INFO  com.example.tests.BaseTest - Test teardown completed
+2025-04-22 17:37:59.106 [main] INFO  com.example.utils.TestListener - Finished test suite: Smoke Tests
+2025-04-22 17:37:59.651 [main] INFO  com.example.utils.ExtentReportManager - ExtentReports flushed successfully
+2025-04-22 17:38:45.217 [main] INFO  com.example.utils.TestListener - Starting test suite: Smoke Tests
+2025-04-22 17:38:45.470 [main] INFO  com.example.utils.ExtentReportManager - Initialized ExtentReports: test-output/ExtentReports/TestReport_20250422_173845.html
+2025-04-22 17:38:45.486 [main] INFO  com.example.utils.Config - Configuration loaded successfully
+2025-04-22 17:38:48.024 [main] INFO  com.example.utils.DriverManager - WebDriver initialized for browser: chrome
+2025-04-22 17:38:48.024 [main] INFO  com.example.tests.BaseTest - Test setup completed successfully
+2025-04-22 17:38:48.051 [main] INFO  com.example.utils.TestListener - Starting test: testHomePageLoad
+2025-04-22 17:38:48.057 [main] INFO  com.example.tests.SmokeTest - Starting home page load test
+2025-04-22 17:39:00.030 [main] ERROR com.example.utils.WebElementUtils - Element not visible: By.id: header_logo after 10 seconds
+2025-04-22 17:39:00.048 [main] ERROR com.example.utils.TestListener - Test failed: testHomePageLoad - java.lang.AssertionError: Home page logo should be displayed expected [true] but found [false]
+2025-04-22 17:39:00.312 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testHomePageLoad_20250422_173900.png
+2025-04-22 17:39:00.550 [main] INFO  com.example.utils.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-04-22 17:39:00.550 [main] INFO  com.example.tests.BaseTest - Test teardown completed
+2025-04-22 17:39:00.567 [main] INFO  com.example.utils.TestListener - Finished test suite: Smoke Tests
+2025-04-22 17:39:00.894 [main] INFO  com.example.utils.ExtentReportManager - ExtentReports flushed successfully
+2025-04-22 17:39:55.486 [main] INFO  com.example.utils.TestListener - Starting test suite: All Tests
+2025-04-22 17:39:55.678 [main] INFO  com.example.utils.ExtentReportManager - Initialized ExtentReports: test-output/ExtentReports/TestReport_20250422_173955.html
+2025-04-22 17:39:55.695 [main] INFO  com.example.utils.Config - Configuration loaded successfully
+2025-04-22 17:39:57.678 [main] INFO  com.example.utils.DriverManager - WebDriver initialized for browser: chrome
+2025-04-22 17:39:57.679 [main] INFO  com.example.tests.BaseTest - Test setup completed successfully
+2025-04-22 17:39:58.855 [main] INFO  com.example.utils.TestListener - Starting test: testSearchFunctionality
+2025-04-22 17:40:20.683 [main] ERROR com.example.utils.WebElementUtils - Element not visible: By.id: search after 10 seconds
+2025-04-22 17:40:20.683 [main] INFO  com.example.tests.BaseTest - Search results displayed: false
+2025-04-22 17:40:20.701 [main] ERROR com.example.utils.TestListener - Test failed: testSearchFunctionality - java.lang.AssertionError: Search results should be displayed expected [true] but found [false]
+2025-04-22 17:40:20.854 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testSearchFunctionality_20250422_174020.png
+2025-04-22 17:40:21.195 [main] INFO  com.example.utils.TestListener - Starting test: testCartOperations
+2025-04-22 17:40:21.195 [main] WARN  com.example.utils.TestListener - Test skipped: testCartOperations
+2025-04-22 17:40:21.197 [main] INFO  com.example.utils.TestListener - Starting test: testValidLogin
+2025-04-22 17:40:21.199 [main] INFO  com.example.tests.LoginTest - Starting valid login test
+2025-04-22 17:40:21.201 [main] ERROR com.example.utils.TestListener - Test failed: testValidLogin - java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.loginData" is null
+2025-04-22 17:40:21.317 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testValidLogin_20250422_174021.png
+2025-04-22 17:40:21.321 [main] INFO  com.example.utils.TestListener - Starting test: testInvalidLogin
+2025-04-22 17:40:21.322 [main] INFO  com.example.tests.LoginTest - Starting invalid login test
+2025-04-22 17:40:21.323 [main] ERROR com.example.utils.TestListener - Test failed: testInvalidLogin - java.lang.IllegalArgumentException: Driver must be set
+2025-04-22 17:40:21.429 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testInvalidLogin_20250422_174021.png
+2025-04-22 17:40:21.431 [main] INFO  com.example.utils.TestListener - Starting test: testEmptyCredentials
+2025-04-22 17:40:21.431 [main] INFO  com.example.tests.LoginTest - Starting empty credentials test
+2025-04-22 17:40:21.432 [main] ERROR com.example.utils.TestListener - Test failed: testEmptyCredentials - java.lang.IllegalArgumentException: Driver must be set
+2025-04-22 17:40:21.534 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testEmptyCredentials_20250422_174021.png
+2025-04-22 17:40:21.536 [main] INFO  com.example.utils.TestListener - Starting test: testSignOut
+2025-04-22 17:40:21.536 [main] WARN  com.example.utils.TestListener - Test skipped: testSignOut
+2025-04-22 17:40:21.537 [main] INFO  com.example.utils.TestListener - Starting test: testProductDetails
+2025-04-22 17:40:21.538 [main] ERROR com.example.tests.ProductDetailsTest - Product details test failed: Cannot invoke "java.util.Properties.getProperty(String)" because "this.productData" is null
+2025-04-22 17:40:21.539 [main] ERROR com.example.utils.TestListener - Test failed: testProductDetails - java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.productData" is null
+2025-04-22 17:40:21.645 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testProductDetails_20250422_174021.png
+2025-04-22 17:40:21.647 [main] INFO  com.example.utils.Config - Configuration loaded successfully
+2025-04-22 17:40:21.647 [main] INFO  com.example.tests.ProductTest - Product test data loaded successfully
+2025-04-22 17:40:21.649 [main] INFO  com.example.utils.TestListener - Starting test: testAddToCart
+2025-04-22 17:40:21.649 [main] WARN  com.example.utils.TestListener - Test skipped: testAddToCart
+2025-04-22 17:40:21.652 [main] INFO  com.example.utils.TestListener - Starting test: testProductSearch
+2025-04-22 17:40:21.652 [main] WARN  com.example.utils.TestListener - Test skipped: testProductSearch
+2025-04-22 17:40:21.654 [main] INFO  com.example.utils.TestListener - Starting test: testHomePageLoad
+2025-04-22 17:40:21.654 [main] INFO  com.example.tests.SmokeTest - Starting home page load test
+2025-04-22 17:40:21.655 [main] ERROR com.example.utils.TestListener - Test failed: testHomePageLoad - java.lang.NullPointerException: Cannot invoke "com.example.utils.Config.getProperty(String, String)" because "this.config" is null
+2025-04-22 17:40:21.768 [main] INFO  com.example.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testHomePageLoad_20250422_174021.png
+2025-04-22 17:40:21.992 [main] INFO  com.example.utils.DriverManager - WebDriver closed and removed from ThreadLocal
+2025-04-22 17:40:21.992 [main] INFO  com.example.tests.BaseTest - Test teardown completed
+2025-04-22 17:40:22.022 [main] INFO  com.example.utils.TestListener - Finished test suite: All Tests
+2025-04-22 17:40:22.352 [main] INFO  com.example.utils.ExtentReportManager - ExtentReports flushed successfully

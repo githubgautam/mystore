@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Selenium Test Framework</th></tr>
+<tr><td><a href="#t0">All Tests</a></td><td class="num">0</td><td class="num attn">4</td><td class="num">0</td><td class="num attn">6</td><td class="num">26,524</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Selenium Test Framework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">All Tests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.example.tests.CartTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1745323821189</td><td rowspan="1">2</td></tr><tr class="failedodd"><td rowspan="1">com.example.tests.ProductTest</td><td><a href="#m1">setUp</a></td><td rowspan="1">1745323821647</td><td rowspan="1">0</td></tr><tr><th colspan="4">All Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.example.tests.ActionDriverTest</td><td><a href="#m2">testSearchFunctionality</a></td><td rowspan="1">1745323798854</td><td rowspan="1">21838</td></tr><tr class="failedodd"><td rowspan="3">com.example.tests.LoginTest</td><td><a href="#m3">testEmptyCredentials</a></td><td rowspan="1">1745323821431</td><td rowspan="1">0</td></tr><tr class="failedodd"><td><a href="#m4">testInvalidLogin</a></td><td rowspan="1">1745323821321</td><td rowspan="1">2</td></tr><tr class="failedodd"><td><a href="#m5">testValidLogin</a></td><td rowspan="1">1745323821197</td><td rowspan="1">2</td></tr><tr class="failedeven"><td rowspan="1">com.example.tests.ProductDetailsTest</td><td><a href="#m6">testProductDetails</a></td><td rowspan="1">1745323821537</td><td rowspan="1">1</td></tr><tr class="failedodd"><td rowspan="1">com.example.tests.SmokeTest</td><td><a href="#m7">testHomePageLoad</a></td><td rowspan="1">1745323821653</td><td rowspan="1">1</td></tr><tr><th colspan="4">All Tests &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="3">com.example.tests.ProductTest</td><td><a href="#m8">cleanUp</a></td><td rowspan="2">1745323821650</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m9">cleanUp</a></td></tr><tr class="skippedeven"><td><a href="#m10">setUp</a></td><td rowspan="1">1745323821651</td><td rowspan="1">0</td></tr><tr><th colspan="4">All Tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.example.tests.CartTest</td><td><a href="#m11">testCartOperations</a></td><td rowspan="1">1745323821195</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.example.tests.LoginTest</td><td><a href="#m12">testSignOut</a></td><td rowspan="1">1745323821536</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="2">com.example.tests.ProductTest</td><td><a href="#m13">testAddToCart</a></td><td rowspan="1">1745323821648</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m14">testProductSearch</a></td><td rowspan="1">1745323821651</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>All Tests</h2><h3 id="m0">com.example.tests.CartTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:59)
+	at com.example.utils.ActionDriver.&lt;init&gt;(ActionDriver.java:17)
+	at com.example.pages.BasePage.&lt;init&gt;(BasePage.java:16)
+	at com.example.pages.ProductPage.&lt;init&gt;(ProductPage.java:40)
+	at com.example.tests.CartTest.setUp(CartTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.example.tests.ProductTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:59)
+	at com.example.utils.ActionDriver.&lt;init&gt;(ActionDriver.java:17)
+	at com.example.pages.BasePage.&lt;init&gt;(BasePage.java:16)
+	at com.example.pages.ProductPage.&lt;init&gt;(ProductPage.java:40)
+	at com.example.tests.ProductTest.setUp(ProductTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.example.tests.ActionDriverTest#testSearchFunctionality</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Search results should be displayed expected [true] but found [false]
+	at com.example.tests.ActionDriverTest.testSearchFunctionality(ActionDriverTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.example.tests.LoginTest#testEmptyCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:59)
+	at com.example.utils.ActionDriver.&lt;init&gt;(ActionDriver.java:17)
+	at com.example.pages.BasePage.&lt;init&gt;(BasePage.java:16)
+	at com.example.pages.IndexPage.&lt;init&gt;(IndexPage.java:25)
+	at com.example.tests.LoginTest.testEmptyCredentials(LoginTest.java:91)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.example.tests.LoginTest#testInvalidLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:59)
+	at com.example.utils.ActionDriver.&lt;init&gt;(ActionDriver.java:17)
+	at com.example.pages.BasePage.&lt;init&gt;(BasePage.java:16)
+	at com.example.pages.IndexPage.&lt;init&gt;(IndexPage.java:25)
+	at com.example.tests.LoginTest.testInvalidLogin(LoginTest.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.example.tests.LoginTest#testValidLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.loginData&quot; is null
+	at com.example.tests.LoginTest.testValidLogin(LoginTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.example.tests.ProductDetailsTest#testProductDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.productData&quot; is null
+	at com.example.tests.ProductDetailsTest.testProductDetails(ProductDetailsTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.example.tests.SmokeTest#testHomePageLoad</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.example.utils.Config.getProperty(String, String)&quot; because &quot;this.config&quot; is null
+	at com.example.tests.SmokeTest.testHomePageLoad(SmokeTest.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.example.tests.ProductTest#cleanUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.example.tests.ProductTest#cleanUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.example.tests.ProductTest#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.example.tests.CartTest#testCartOperations</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:59)
+	at com.example.utils.ActionDriver.&lt;init&gt;(ActionDriver.java:17)
+	at com.example.pages.BasePage.&lt;init&gt;(BasePage.java:16)
+	at com.example.pages.ProductPage.&lt;init&gt;(ProductPage.java:40)
+	at com.example.tests.CartTest.setUp(CartTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.example.tests.LoginTest#testSignOut</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.example.tests.LoginTest.testSignOut() on instance com.example.tests.LoginTest@7966baa7 depends on not successfully finished methods 
+[com.example.tests.LoginTest.testValidLogin() on instance com.example.tests.LoginTest@7966baa7]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.example.tests.ProductTest#testAddToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:59)
+	at com.example.utils.ActionDriver.&lt;init&gt;(ActionDriver.java:17)
+	at com.example.pages.BasePage.&lt;init&gt;(BasePage.java:16)
+	at com.example.pages.ProductPage.&lt;init&gt;(ProductPage.java:40)
+	at com.example.tests.ProductTest.setUp(ProductTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.example.tests.ProductTest#testProductSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:59)
+	at com.example.utils.ActionDriver.&lt;init&gt;(ActionDriver.java:17)
+	at com.example.pages.BasePage.&lt;init&gt;(BasePage.java:16)
+	at com.example.pages.ProductPage.&lt;init&gt;(ProductPage.java:40)
+	at com.example.tests.ProductTest.setUp(ProductTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
